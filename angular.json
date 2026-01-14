@@ -2,7 +2,8 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": false
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -19,13 +20,40 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/fonts/css/fontawesome-all.min.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/bootstrap-4-navbar.css",
+              "src/assets/slick/slick.css",
+              "src/assets/inc/lightbox/css/jquery.fancybox.css",
+              "src/assets/css/fakeLoader.css",
+              "src/assets/css/magnific-popup.css",
+              "src/styles.css",
+              "src/assets/color/color-switcher.css",
+              "src/assets/css/responsive.css"
+            ],
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/wow.min.js",
+              "src/assets/js/waypoints.min.js",
+              "src/assets/js/countdown.js",
+              "src/assets/js/jquery.mixitup.min.js",
+              "src/assets/inc/lightbox/js/jquery.fancybox.pack.js",
+              "src/assets/inc/lightbox/js/lightbox.js",
+              "src/assets/js/fakeLoader.min.js",
+              "src/assets/js/scrolltopcontrol.js",
+              "src/assets/js/bootstrap-4-navbar.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/slick/slick.min.js",
+              "src/assets/js/color-switcher.js",
+              "src/assets/js/color-switcher-active.js",
+              "src/assets/js/custom.js"
             ]
           },
           "configurations": {
