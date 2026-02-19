@@ -15,5 +15,5 @@ import {Courses} from "./pages/courses/courses";
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('springboot-learning-hub');
+  protected readonly title = signal('microservice-learning-hub');
 }
